@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: aws.sh
+    - location: bin.sh
       timeout: 300
       runas: root
